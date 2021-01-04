@@ -1,0 +1,61 @@
+\documentclass{beamer}
+\usepackage{../common/beamerthemecustom}         
+
+
+
+
+\title{My Title}
+\subtitle{My Subtitle}
+\date{\today}
+\author{Vincent Choqueuse}
+\institute{ENIB}
+
+\begin{document}
+	\maketitle
+  	\begin{frame}{Table of Contents}
+  	\tableofcontents
+  	\end{frame}
+  
+   	\section{First Section}
+  	\begin{frame}{\insertsection}
+    	Hello, world!
+  	\end{frame}
+  
+  	\section{Second Section}
+  	\begin{frame}{\insertsection}
+  		\begin{columns}
+			\begin{column}{0.5\textwidth}
+  			some text here some text here some text here some text here some text here
+			\end{column}
+			\begin{column}{0.5\textwidth}  
+   		 	some text here some text \alert{here} some text here some text here some text here
+			\end{column}
+		\end{columns}
+  	\end{frame}
+  
+   	\section{Second Section}
+  	\begin{frame}{First Frame}
+ 	\begin{theorem}[name]
+        	Let $r, s$ be integers such that gcd$(r, s)=1$. 
+        Given integers $a,b$, there exists unique 
+        $x <rs$ such that 
+        \end{theorem} 
+  	\end{frame}
+  
+     	\section{Third Section}
+  	\begin{frame}{\insertsection}
+ 	\begin{itemize}
+	\item qsdqsd
+	\item qsdsd
+	\end{itemize}
+  	\end{frame}
+	
+	 \subsection{Fourth Section}
+  	\begin{frame}{\insertsection}
+ 	\begin{block}{alerted}{Test}
+sdsd
+	\end{block}
+  	\end{frame}
+  
+  
+\end{document}

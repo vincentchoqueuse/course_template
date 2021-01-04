@@ -1,0 +1,38 @@
+\mode<presentation>
+
+% Requirement
+\usetheme{metropolis}
+\RequirePackage{tikz}
+
+\setlength{\metropolis@frametitle@padding}{2.2ex}
+\setbeamertemplate{frametitle}{%
+  \nointerlineskip%
+  \begin{beamercolorbox}[wd=\paperwidth,sep=0pt,leftskip=\metropolis@frametitle@padding,rightskip=\metropolis@frametitle@padding]{frametitle}%
+  \metropolis@frametitlestrut@start%
+  \insertframetitle%
+  \nolinebreak%
+  \metropolis@frametitlestrut@end%
+  \hfill
+  \includegraphics[height=2.5ex,keepaspectratio]{img/enib}
+  \end{beamercolorbox}%
+}  
+
+\setbeamertemplate{title separator}{
+  \begin{tikzpicture}
+   \end{tikzpicture}
+\par
+}
+
+\setbeamertemplate{frame footer}{\insertshortauthor~(\insertshortinstitute)}
+\setbeamerfont{page number in head/foot}{size=\tiny}
+\setbeamercolor{footline}{fg=gray}
+\setbeamercolor*{author}{fg=black}
+\setbeamercolor*{date}{fg=black}
+\setbeamercolor{normal text}{bg=white}
+\setbeamercolor{frametitle}{fg=black,bg=white}
+
+\metroset{sectionpage=simple}
+
+
+
+\mode<all>
