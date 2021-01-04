@@ -2,9 +2,11 @@
 
 This repo contains several tools for courses management. It includes
 
-* A static website generator based on Sphinx (rst + latex compatible).
+* A static website generator based on Sphinx (rst + latex compatible) : https://vincentchoqueuse.github.io/course_template/index.html
 * A beamer template based on the modern metropolis theme
 * A python folder for data generation
+
+
 
 ## Requirements
 
